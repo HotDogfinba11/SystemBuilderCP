@@ -12,6 +12,8 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 List {
+                    NavigationLink(destination: BuildView()){
+                        Label("Build", systemImage: "gear")
                     }
                 }
             }
