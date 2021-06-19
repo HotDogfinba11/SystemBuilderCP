@@ -50,7 +50,6 @@
 		86280DA9267EA23A00E66123 = {
 			isa = PBXGroup;
 			children = (
-				86280DD9267EA9B900E66123 /* BuildView.swift */,
 				86280DAE267EA23A00E66123 /* Shared */,
 				86280DB8267EA23B00E66123 /* iOS */,
 				86280DBF267EA23B00E66123 /* macOS */,
@@ -63,6 +62,7 @@
 			children = (
 				86280DAF267EA23A00E66123 /* SystemBuilderCPApp.swift */,
 				86280DB0267EA23A00E66123 /* ContentView.swift */,
+				86280DD9267EA9B900E66123 /* BuildView.swift */,
 				86280DB1267EA23B00E66123 /* Assets.xcassets */,
 			);
 			path = Shared;
