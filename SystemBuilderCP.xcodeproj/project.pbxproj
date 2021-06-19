@@ -30,6 +30,7 @@
 		86280DC1267EA23B00E66123 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		86280DD9267EA9B900E66123 /* BuildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildView.swift; sourceTree = "<group>"; };
 		86280DDC267EAAE600E66123 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		86280DDF267EB16B00E66123 /* SystemBuilderCP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SystemBuilderCP.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		86280DA9267EA23A00E66123 = {
 			isa = PBXGroup;
 			children = (
+				86280DDF267EB16B00E66123 /* SystemBuilderCP.entitlements */,
 				86280DAE267EA23A00E66123 /* Shared */,
 				86280DB8267EA23B00E66123 /* iOS */,
 				86280DBF267EA23B00E66123 /* macOS */,
@@ -332,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SystemBuilderCP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2E3SW78A73;
 				ENABLE_PREVIEWS = YES;
@@ -344,6 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = oliver.SystemBuilderCP;
 				PRODUCT_NAME = SystemBuilderCP;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SystemBuilderCP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2E3SW78A73;
 				ENABLE_PREVIEWS = YES;
@@ -366,6 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = oliver.SystemBuilderCP;
 				PRODUCT_NAME = SystemBuilderCP;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
