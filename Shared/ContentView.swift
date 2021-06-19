@@ -15,6 +15,9 @@ struct ContentView: View {
                     NavigationLink(destination: BuildView()){
                         Label("Build", systemImage: "gear")
                     }
+                    NavigationLink(destination: SettingsView()){
+                        Label("Settings", systemImage: "macpro.gen3")
+                    }
                 }
             }
         }
