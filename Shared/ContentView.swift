@@ -15,11 +15,6 @@ struct ContentView: View{
         NavigationView {
             VStack {
                 List {
-                    Image("pc-graphic")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .cornerRadius(4)
-                        .padding(.bottom, 10)
                     NavigationLink(destination: BuildView(), isActive: $ShowingView) {
                         Label("Build", systemImage: "macpro.gen3")
                     }
