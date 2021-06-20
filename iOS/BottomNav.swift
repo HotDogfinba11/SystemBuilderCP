@@ -8,19 +8,18 @@
 import SwiftUI
 
 struct TabBar: View {
-  var body: some View {
-    TabView {
-        Text("placeholder")
-            .tabItem {
-                Image(systemName: "macpro.gen3")
-                Text("Build")
-            }
-     
-        Text("placeholder")
-            .tabItem {
-                Image(systemName: "gear")
-                Text("Settings")
-            }
+    var body: some View {
+        TabView {
+            Text("placeholder")
+                .tabItem{
+                    Image(systemName: "macpro.gen3")
+                    Text("Build")
+                }
+            Text("placeholder")
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
+        }
     }
-  }
 }
