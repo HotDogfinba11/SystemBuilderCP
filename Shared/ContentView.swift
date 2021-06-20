@@ -40,7 +40,6 @@ struct ContentView: View{
             }
         }
         #else
-        NavigationView {
             TabView {
                 BuildView()
                     .tabItem{
@@ -53,7 +52,6 @@ struct ContentView: View{
                         Text("Settings")
                     }
             }
-        }
         #endif
     }
 }
