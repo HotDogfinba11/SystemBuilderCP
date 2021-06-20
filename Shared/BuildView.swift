@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BuildView: View {
     var body: some View {
-        Text("placeholder")
+        Text("build")
             .navigationTitle("Build")
     }
 }
