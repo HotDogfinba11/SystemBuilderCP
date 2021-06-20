@@ -16,13 +16,24 @@ struct ContentView: View{
             VStack {
                 List() {
                         Section(header: Text("System Builder")) {
-                        NavigationLink(destination: BuildView(), isActive: $ShowingView) {
-                            Label("Build", systemImage: "macpro.gen3")
+                            NavigationLink(destination: BuildView(), isActive: $ShowingView) {
+                                Label("Build", systemImage: "macpro.gen3")
+                            }
+                            NavigationLink(destination: SettingsView()) {
+                                Label("Settings", systemImage: "gear")
+                            }
                         }
-                        NavigationLink(destination: SettingsView()) {
-                            Label("Settings", systemImage: "gear")
+                        Section(header: Text("Favourited")) {
+                            NavigationLink(destination: BuildView(), isActive: $ShowingView) {
+                                Label("Workstation", systemImage: "macpro.gen3.server")
+                            }
+                            NavigationLink(destination: SettingsView()) {
+                                Label("Gaming", systemImage: "gamecontroller")
+                            }
+                            NavigationLink(destination: SettingsView()) {
+                                Label("Video Editing", systemImage: "video")
+                            }
                         }
-                    }
                 }
             }
         }
