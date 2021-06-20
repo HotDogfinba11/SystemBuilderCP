@@ -10,12 +10,12 @@ import SwiftUI
 struct TabBar: View {
     var body: some View {
         TabView {
-            Text("placeholder")
+            BuildView()
                 .tabItem{
                     Image(systemName: "macpro.gen3")
                     Text("Build")
                 }
-            Text("placeholder")
+            SettingsView()
                 .tabItem {
                     Image(systemName: "gear")
                     Text("Settings")
