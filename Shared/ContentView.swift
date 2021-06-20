@@ -24,7 +24,7 @@ struct ContentView: View{
                             }
                         }
                         Section(header: Text("Favourited")) {
-                            NavigationLink(destination: BuildView(), isActive: $ShowingView) {
+                            NavigationLink(destination: BuildView()) {
                                 Label("Workstation", systemImage: "macpro.gen3.server")
                             }
                             NavigationLink(destination: SettingsView()) {
