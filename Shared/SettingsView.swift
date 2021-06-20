@@ -11,6 +11,7 @@ struct SettingsView: View {
     var body: some View {
         Text("settings")
             .navigationTitle("Settings")
+            .frame(minWidth: 320)
     }
 }
 
