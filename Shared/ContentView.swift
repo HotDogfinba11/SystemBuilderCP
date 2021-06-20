@@ -14,16 +14,17 @@ struct ContentView: View{
         #if os(macOS)
         NavigationView {
             VStack {
-                List {
-                    NavigationLink(destination: BuildView(), isActive: $ShowingView) {
-                        Label("Build", systemImage: "macpro.gen3")
-                    }
-                    NavigationLink(destination: SettingsView()) {
-                        Label("Settings", systemImage: "gear")
+                List() {
+                        Section(header: Text("System Builder")) {
+                        NavigationLink(destination: BuildView(), isActive: $ShowingView) {
+                            Label("Build", systemImage: "macpro.gen3")
+                        }
+                        NavigationLink(destination: SettingsView()) {
+                            Label("Settings", systemImage: "gear")
+                        }
                     }
                 }
             }
-            .navigationTitle("System Builder")
         }
         .toolbar {
             ToolbarItem(placement: .automatic) {
