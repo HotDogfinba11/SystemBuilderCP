@@ -40,18 +40,18 @@ struct ContentView: View{
             }
         }
         #else
-            TabView {
-                BuildView()
-                    .tabItem{
-                        Image(systemName: "macpro.gen3")
-                        Text("Build")
-                    }
-                SettingsView()
-                    .tabItem {
-                        Image(systemName: "gear")
-                        Text("Settings")
-                    }
-            }
+        TabView {
+            BuildView()
+                .tabItem{
+                    Image(systemName: "macpro.gen3")
+                    Text("Build")
+                }
+            SettingsView()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
+        }
         #endif
     }
 }
