@@ -18,6 +18,7 @@
 		86280DDD267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
 		86280DDE267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
 		86280DE1267EB9F300E66123 /* BottomNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DE0267EB9F300E66123 /* BottomNav.swift */; };
+		86280DE2267EBEAC00E66123 /* SystemBuilderCP.app in Resources */ = {isa = PBXBuildFile; fileRef = 86280DB6267EA23B00E66123 /* SystemBuilderCP.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -182,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86280DC6267EA23B00E66123 /* Assets.xcassets in Resources */,
+				86280DE2267EBEAC00E66123 /* SystemBuilderCP.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

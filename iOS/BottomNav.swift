@@ -13,7 +13,7 @@ struct TabBar: View {
         Text("placeholder")
             .tabItem {
                 Image(systemName: "macpro.gen3")
-                Text("Builder")
+                Text("Build")
             }
      
         Text("placeholder")
