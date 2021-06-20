@@ -11,6 +11,7 @@ struct ContentView: View {
     @State private var ShowingView = true
     
     var body: some View {
+        #if os(macOS)
         NavigationView {
             VStack {
                 List {
@@ -29,6 +30,11 @@ struct ContentView: View {
             }
             .navigationTitle("System Builder")
         }
+        #else
+        NavigationView {
+            TabBar()
+        }
+        #endif
     }
 }
 
