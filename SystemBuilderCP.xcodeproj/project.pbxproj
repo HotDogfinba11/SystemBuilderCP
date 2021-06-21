@@ -17,7 +17,7 @@
 		86280DDB267EA9B900E66123 /* BuildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DD9267EA9B900E66123 /* BuildView.swift */; };
 		86280DDD267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
 		86280DDE267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
-		867C5FDA26809EC700C2A457 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 867C5FD926809EC700C2A457 /* SwiftUICharts */; };
+		867ADF5E2680A382005FC7DB /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 867ADF5D2680A382005FC7DB /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867C5FDA26809EC700C2A457 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867ADF5E2680A382005FC7DB /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +119,6 @@
 			);
 			name = "SystemBuilderCP (iOS)";
 			packageProductDependencies = (
-				867C5FD926809EC700C2A457 /* SwiftUICharts */,
 			);
 			productName = "SystemBuilderCP (iOS)";
 			productReference = 86280DB6267EA23B00E66123 /* SystemBuilderCP.app */;
@@ -138,6 +137,9 @@
 			dependencies = (
 			);
 			name = "SystemBuilderCP (macOS)";
+			packageProductDependencies = (
+				867ADF5D2680A382005FC7DB /* SwiftUICharts */,
+			);
 			productName = "SystemBuilderCP (macOS)";
 			productReference = 86280DBE267EA23B00E66123 /* SystemBuilderCP.app */;
 			productType = "com.apple.product-type.application";
@@ -169,7 +171,7 @@
 			);
 			mainGroup = 86280DA9267EA23A00E66123;
 			packageReferences = (
-				867C5FD826809EC700C2A457 /* XCRemoteSwiftPackageReference "ChartView" */,
+				867ADF5C2680A382005FC7DB /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 86280DB7267EA23B00E66123 /* Products */;
 			projectDirPath = "";
@@ -471,7 +473,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		867C5FD826809EC700C2A457 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+		867ADF5C2680A382005FC7DB /* XCRemoteSwiftPackageReference "ChartView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AppPear/ChartView";
 			requirement = {
@@ -482,9 +484,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		867C5FD926809EC700C2A457 /* SwiftUICharts */ = {
+		867ADF5D2680A382005FC7DB /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 867C5FD826809EC700C2A457 /* XCRemoteSwiftPackageReference "ChartView" */;
+			package = 867ADF5C2680A382005FC7DB /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
