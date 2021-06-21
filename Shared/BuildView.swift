@@ -10,7 +10,8 @@ import SwiftUICharts
 
 struct BuildView: View {
     var body: some View {
-        Text("build")
+        LineChartView(data: [8,23,54,32,12,37,7,23,43], title: "Title", legend: "Legendary") // legend is optional
+
             .navigationTitle("Build")
             .frame(minWidth: 320)
     }

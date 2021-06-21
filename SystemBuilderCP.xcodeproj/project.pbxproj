@@ -18,6 +18,7 @@
 		86280DDD267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
 		86280DDE267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
 		867ADF5E2680A382005FC7DB /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 867ADF5D2680A382005FC7DB /* SwiftUICharts */; };
+		867ADF642680A823005FC7DB /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 867ADF632680A823005FC7DB /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867ADF642680A823005FC7DB /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +63,7 @@
 				86280DB8267EA23B00E66123 /* iOS */,
 				86280DBF267EA23B00E66123 /* macOS */,
 				86280DB7267EA23B00E66123 /* Products */,
+				867ADF622680A823005FC7DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +105,13 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		867ADF622680A823005FC7DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,6 +129,7 @@
 			);
 			name = "SystemBuilderCP (iOS)";
 			packageProductDependencies = (
+				867ADF632680A823005FC7DB /* SwiftUICharts */,
 			);
 			productName = "SystemBuilderCP (iOS)";
 			productReference = 86280DB6267EA23B00E66123 /* SystemBuilderCP.app */;
@@ -485,6 +496,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		867ADF5D2680A382005FC7DB /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 867ADF5C2680A382005FC7DB /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		867ADF632680A823005FC7DB /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 867ADF5C2680A382005FC7DB /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
