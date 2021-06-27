@@ -35,6 +35,7 @@ struct ContentView: View{
                             }
                         }
                 }
+                .frame(minWidth: 150)
                 .toolbar {
                     ToolbarItem(placement: .automatic) {
                         Button(action: {
