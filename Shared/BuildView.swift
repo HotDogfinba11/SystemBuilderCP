@@ -32,7 +32,7 @@ struct BuildView_Previews: PreviewProvider {
 struct GraphView: View {
     var body: some View {
         GroupBox(
-            label: Label("Average price over time", systemImage: "dollarsign.square.fill")
+            label: Label("Average price over time", systemImage: "sterlingsign.square.fill")
                 .foregroundColor(.green)
         ) {
             LightChartView(data: [2, 30, 9, 23, 10, 20, 15, 17, 6, 23],
