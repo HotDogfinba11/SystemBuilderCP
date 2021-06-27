@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		862054E12688D43F000C5B92 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 862054E02688D43F000C5B92 /* SwiftUICharts */; };
-		862054E32688D458000C5B92 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 862054E22688D458000C5B92 /* SwiftUICharts */; };
+		862054E62688F566000C5B92 /* LightChart in Frameworks */ = {isa = PBXBuildFile; productRef = 862054E52688F566000C5B92 /* LightChart */; };
+		862054E82688F7DD000C5B92 /* LightChart in Frameworks */ = {isa = PBXBuildFile; productRef = 862054E72688F7DD000C5B92 /* LightChart */; };
 		86280DC2267EA23B00E66123 /* SystemBuilderCPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DAF267EA23A00E66123 /* SystemBuilderCPApp.swift */; };
 		86280DC3267EA23B00E66123 /* SystemBuilderCPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DAF267EA23A00E66123 /* SystemBuilderCPApp.swift */; };
 		86280DC4267EA23B00E66123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DB0267EA23A00E66123 /* ContentView.swift */; };
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				862054E12688D43F000C5B92 /* SwiftUICharts in Frameworks */,
+				862054E62688F566000C5B92 /* LightChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				862054E32688D458000C5B92 /* SwiftUICharts in Frameworks */,
+				862054E82688F7DD000C5B92 /* LightChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 			);
 			name = "SystemBuilderCP (iOS)";
 			packageProductDependencies = (
-				862054E02688D43F000C5B92 /* SwiftUICharts */,
+				862054E52688F566000C5B92 /* LightChart */,
 			);
 			productName = "SystemBuilderCP (iOS)";
 			productReference = 86280DB6267EA23B00E66123 /* SystemBuilderCP.app */;
@@ -149,7 +149,7 @@
 			);
 			name = "SystemBuilderCP (macOS)";
 			packageProductDependencies = (
-				862054E22688D458000C5B92 /* SwiftUICharts */,
+				862054E72688F7DD000C5B92 /* LightChart */,
 			);
 			productName = "SystemBuilderCP (macOS)";
 			productReference = 86280DBE267EA23B00E66123 /* SystemBuilderCP.app */;
@@ -182,7 +182,7 @@
 			);
 			mainGroup = 86280DA9267EA23A00E66123;
 			packageReferences = (
-				862054DF2688D43F000C5B92 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+				862054E42688F566000C5B92 /* XCRemoteSwiftPackageReference "LightChart" */,
 			);
 			productRefGroup = 86280DB7267EA23B00E66123 /* Products */;
 			projectDirPath = "";
@@ -484,26 +484,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		862054DF2688D43F000C5B92 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+		862054E42688F566000C5B92 /* XCRemoteSwiftPackageReference "LightChart" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mecid/SwiftUICharts";
+			repositoryURL = "https://github.com/sanengineer/LightChart";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.6.3;
+				minimumVersion = 1.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		862054E02688D43F000C5B92 /* SwiftUICharts */ = {
+		862054E52688F566000C5B92 /* LightChart */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 862054DF2688D43F000C5B92 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
-			productName = SwiftUICharts;
+			package = 862054E42688F566000C5B92 /* XCRemoteSwiftPackageReference "LightChart" */;
+			productName = LightChart;
 		};
-		862054E22688D458000C5B92 /* SwiftUICharts */ = {
+		862054E72688F7DD000C5B92 /* LightChart */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 862054DF2688D43F000C5B92 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
-			productName = SwiftUICharts;
+			package = 862054E42688F566000C5B92 /* XCRemoteSwiftPackageReference "LightChart" */;
+			productName = LightChart;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

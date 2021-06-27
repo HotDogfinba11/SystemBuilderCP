@@ -2,12 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "SwiftUICharts",
-        "repositoryURL": "https://github.com/mecid/SwiftUICharts",
+        "package": "LightChart",
+        "repositoryURL": "https://github.com/sanengineer/LightChart",
         "state": {
           "branch": null,
-          "revision": "6caa314f63912d37bb26fdf88ae7974747573f9b",
-          "version": "0.6.3"
+          "revision": "cfdf57741a7174a5fa4a6205d70af8bc350658f9",
+          "version": "1.0.3"
         }
       }
     ]
