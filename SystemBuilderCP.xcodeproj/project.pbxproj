@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862054E12688D43F000C5B92 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 862054E02688D43F000C5B92 /* SwiftUICharts */; };
+		862054E32688D458000C5B92 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 862054E22688D458000C5B92 /* SwiftUICharts */; };
 		86280DC2267EA23B00E66123 /* SystemBuilderCPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DAF267EA23A00E66123 /* SystemBuilderCPApp.swift */; };
 		86280DC3267EA23B00E66123 /* SystemBuilderCPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DAF267EA23A00E66123 /* SystemBuilderCPApp.swift */; };
 		86280DC4267EA23B00E66123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DB0267EA23A00E66123 /* ContentView.swift */; };
@@ -17,8 +19,6 @@
 		86280DDB267EA9B900E66123 /* BuildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DD9267EA9B900E66123 /* BuildView.swift */; };
 		86280DDD267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
 		86280DDE267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
-		867ADF5E2680A382005FC7DB /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 867ADF5D2680A382005FC7DB /* SwiftUICharts */; };
-		867ADF642680A823005FC7DB /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 867ADF632680A823005FC7DB /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867ADF642680A823005FC7DB /* SwiftUICharts in Frameworks */,
+				862054E12688D43F000C5B92 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867ADF5E2680A382005FC7DB /* SwiftUICharts in Frameworks */,
+				862054E32688D458000C5B92 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 			);
 			name = "SystemBuilderCP (iOS)";
 			packageProductDependencies = (
-				867ADF632680A823005FC7DB /* SwiftUICharts */,
+				862054E02688D43F000C5B92 /* SwiftUICharts */,
 			);
 			productName = "SystemBuilderCP (iOS)";
 			productReference = 86280DB6267EA23B00E66123 /* SystemBuilderCP.app */;
@@ -149,7 +149,7 @@
 			);
 			name = "SystemBuilderCP (macOS)";
 			packageProductDependencies = (
-				867ADF5D2680A382005FC7DB /* SwiftUICharts */,
+				862054E22688D458000C5B92 /* SwiftUICharts */,
 			);
 			productName = "SystemBuilderCP (macOS)";
 			productReference = 86280DBE267EA23B00E66123 /* SystemBuilderCP.app */;
@@ -182,7 +182,7 @@
 			);
 			mainGroup = 86280DA9267EA23A00E66123;
 			packageReferences = (
-				867ADF5C2680A382005FC7DB /* XCRemoteSwiftPackageReference "ChartView" */,
+				862054DF2688D43F000C5B92 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
 			);
 			productRefGroup = 86280DB7267EA23B00E66123 /* Products */;
 			projectDirPath = "";
@@ -484,25 +484,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		867ADF5C2680A382005FC7DB /* XCRemoteSwiftPackageReference "ChartView" */ = {
+		862054DF2688D43F000C5B92 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppPear/ChartView";
+			repositoryURL = "https://github.com/mecid/SwiftUICharts";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.5.5;
+				minimumVersion = 0.6.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		867ADF5D2680A382005FC7DB /* SwiftUICharts */ = {
+		862054E02688D43F000C5B92 /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 867ADF5C2680A382005FC7DB /* XCRemoteSwiftPackageReference "ChartView" */;
+			package = 862054DF2688D43F000C5B92 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
 			productName = SwiftUICharts;
 		};
-		867ADF632680A823005FC7DB /* SwiftUICharts */ = {
+		862054E22688D458000C5B92 /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 867ADF5C2680A382005FC7DB /* XCRemoteSwiftPackageReference "ChartView" */;
+			package = 862054DF2688D43F000C5B92 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
 			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
