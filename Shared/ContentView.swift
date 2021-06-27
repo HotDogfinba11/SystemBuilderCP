@@ -16,7 +16,7 @@ struct ContentView: View{
             VStack {
                 List() {
                         Section(header: Text("System Builder")) {
-                            NavigationLink(destination: BuildView(), isActive: $ShowingView) {
+                            NavigationLink(destination: GraphView(), isActive: $ShowingView) {
                                 Label("Build", systemImage: "macpro.gen3")
                             }
                             NavigationLink(destination: SettingsView()) {
@@ -24,7 +24,7 @@ struct ContentView: View{
                             }
                         }
                         Section(header: Text("Favourited")) {
-                            NavigationLink(destination: BuildView()) {
+                            NavigationLink(destination: GraphView()) {
                                 Label("Workstation", systemImage: "macpro.gen3.server")
                             }
                             NavigationLink(destination: SettingsView()) {
