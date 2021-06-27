@@ -54,6 +54,11 @@ struct ContentView: View{
                     Image(systemName: "macpro.gen3")
                     Text("Build")
                 }
+            FavouritedView()
+                .tabItem {
+                    Image(systemName: "heart")
+                    Text("Favourites")
+                }
             SettingsView()
                 .tabItem {
                     Image(systemName: "gear")

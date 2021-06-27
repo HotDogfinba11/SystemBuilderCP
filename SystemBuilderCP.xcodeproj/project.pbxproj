@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		862054E62688F566000C5B92 /* LightChart in Frameworks */ = {isa = PBXBuildFile; productRef = 862054E52688F566000C5B92 /* LightChart */; };
 		862054E82688F7DD000C5B92 /* LightChart in Frameworks */ = {isa = PBXBuildFile; productRef = 862054E72688F7DD000C5B92 /* LightChart */; };
+		862054EC26890023000C5B92 /* FavouritedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862054E92688FF3F000C5B92 /* FavouritedView.swift */; };
 		86280DC2267EA23B00E66123 /* SystemBuilderCPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DAF267EA23A00E66123 /* SystemBuilderCPApp.swift */; };
 		86280DC3267EA23B00E66123 /* SystemBuilderCPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DAF267EA23A00E66123 /* SystemBuilderCPApp.swift */; };
 		86280DC4267EA23B00E66123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DB0267EA23A00E66123 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		862054E92688FF3F000C5B92 /* FavouritedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritedView.swift; sourceTree = "<group>"; };
 		86280DAF267EA23A00E66123 /* SystemBuilderCPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemBuilderCPApp.swift; sourceTree = "<group>"; };
 		86280DB0267EA23A00E66123 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86280DB1267EA23B00E66123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				86280DB0267EA23A00E66123 /* ContentView.swift */,
 				86280DD9267EA9B900E66123 /* BuildView.swift */,
 				86280DDC267EAAE600E66123 /* SettingsView.swift */,
+				862054E92688FF3F000C5B92 /* FavouritedView.swift */,
 				86280DB1267EA23B00E66123 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -222,6 +225,7 @@
 				86280DDD267EAAE600E66123 /* SettingsView.swift in Sources */,
 				86280DDA267EA9B900E66123 /* BuildView.swift in Sources */,
 				86280DC2267EA23B00E66123 /* SystemBuilderCPApp.swift in Sources */,
+				862054EC26890023000C5B92 /* FavouritedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
