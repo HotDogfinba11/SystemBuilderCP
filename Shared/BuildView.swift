@@ -10,7 +10,11 @@ import SwiftUICharts
 
 struct BuildView: View {
     var body: some View {
-            let price = Legend(color: .yellow, label: "Average Cost")
+        GroupBox(
+                    label: Label("Pricing", systemImage: "dollarsign.square.fill")
+                        .foregroundColor(.green)
+        ) {
+            let price = Legend(color: .yellow, label: "Average")
 
             let points: [DataPoint] = [
                 .init(value: 130, label: "1", legend: price),
@@ -28,9 +32,10 @@ struct BuildView: View {
                 .init(value: 158, label: "24", legend: price),
             ]
             BarChartView(dataPoints: points)
-                
-            .navigationTitle("Build")
-            .frame(minWidth: 320)
+        }
+        .padding()
+        .navigationTitle("Build")
+        .frame(minWidth: 320, maxHeight: 400)
     }
 }
 
