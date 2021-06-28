@@ -20,7 +20,7 @@ struct ContentView: View{
                                 Label("Build", systemImage: "macpro.gen3")
                             }
                             NavigationLink(destination: FavouritedView()) {
-                                Label("Favourites", systemImage: "heart.text.square")
+                                Label("Favourites", systemImage: "heart")
                             }
                             NavigationLink(destination: SettingsView()) {
                                 Label("Settings", systemImage: "gear")
