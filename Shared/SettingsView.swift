@@ -14,12 +14,14 @@ struct SettingsView: View {
                 ScrollView{
                     VStack(spacing: 8) {
                         Text("Option 1")
+                        Text("Option 2")
                     }
                 }
             }
             .navigationTitle("Settings")
         }
         .navigationTitle("Settings")
+        .listStyle(SidebarListStyle())
     }
 }
     

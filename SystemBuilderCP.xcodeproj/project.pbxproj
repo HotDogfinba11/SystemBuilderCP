@@ -20,6 +20,7 @@
 		86280DDB267EA9B900E66123 /* BuildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DD9267EA9B900E66123 /* BuildView.swift */; };
 		86280DDD267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
 		86280DDE267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
+		869DB5F5268A2B01004DA5C2 /* FavouritedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862054E92688FF3F000C5B92 /* FavouritedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -237,6 +238,7 @@
 				86280DDE267EAAE600E66123 /* SettingsView.swift in Sources */,
 				86280DDB267EA9B900E66123 /* BuildView.swift in Sources */,
 				86280DC3267EA23B00E66123 /* SystemBuilderCPApp.swift in Sources */,
+				869DB5F5268A2B01004DA5C2 /* FavouritedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

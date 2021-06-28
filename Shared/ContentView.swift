@@ -19,19 +19,11 @@ struct ContentView: View{
                             NavigationLink(destination: GraphView(), isActive: $ShowingView) {
                                 Label("Build", systemImage: "macpro.gen3")
                             }
+                            NavigationLink(destination: FavouritedView()) {
+                                Label("Favourites", systemImage: "heart.text.square")
+                            }
                             NavigationLink(destination: SettingsView()) {
                                 Label("Settings", systemImage: "gear")
-                            }
-                        }
-                        Section(header: Text("Favourited")) {
-                            NavigationLink(destination: GraphView()) {
-                                Label("Workstation", systemImage: "macpro.gen3.server")
-                            }
-                            NavigationLink(destination: SettingsView()) {
-                                Label("Gaming", systemImage: "gamecontroller")
-                            }
-                            NavigationLink(destination: SettingsView()) {
-                                Label("Video Editing", systemImage: "video")
                             }
                         }
                 }

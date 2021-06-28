@@ -12,29 +12,60 @@ struct FavouritedView: View {
         NavigationView {
             List {
                 NavigationLink(destination: GraphView()){
-                    Label: do {
-                        HStack {
-                            Image("pc-graphic")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 80, height: 80, alignment: .center)
-                                .cornerRadius(20)
-                            VStack(alignment: .leading, spacing: 5, content: {
-                                Text("Nephew's PC")
-                                    .font(.title2)
-                                    .fontWeight(.bold)
-                                Text("Gaming PC, budget of [price].")
-                                    .font(.caption)
-                                    .foregroundColor(Color.secondary)
-                                
-                            })
-                        }
-                        .padding(.vertical, 4)
+                    HStack{
+                        Image("discord")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 40, height: 40)
+                    VStack(alignment: .leading, spacing: 5, content: {
+                        Text("Nephew's PC")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                        Text("Gaming PC, price of £700")
+                            .font(.caption)
+                            .foregroundColor(Color.secondary)
+                        
+                    })
+                    }
+                }
+                NavigationLink(destination: GraphView()){
+                    HStack{
+                        Image("apple")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 40, height: 40)
+                    VStack(alignment: .leading, spacing: 5, content: {
+                        Text("Grandad's PC")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                        Text("Desktop PC, price of £400")
+                            .font(.caption)
+                            .foregroundColor(Color.secondary)
+                    })
+                    }
+                }
+                NavigationLink(destination: GraphView()){
+                    HStack{
+                        Image("apple")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 40, height: 40)
+                    VStack(alignment: .leading, spacing: 5, content: {
+                        Text("Daughter's PC")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                        Text("Desktop PC, price of £350")
+                            .font(.caption)
+                            .foregroundColor(Color.secondary)
+                    })
                     }
                 }
             }
-            .navigationTitle("Favourited")
+            .listStyle(SidebarListStyle())
+            .frame(minWidth: 220)
+            .navigationTitle("Favourites")
         }
+        .navigationTitle("Favourites")
     }
 }
 
