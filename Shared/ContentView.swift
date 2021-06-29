@@ -22,9 +22,6 @@ struct ContentView: View{
                             NavigationLink(destination: FavouritedView()) {
                                 Label("Favourites", systemImage: "heart")
                             }
-                            NavigationLink(destination: SettingsView()) {
-                                Label("Settings", systemImage: "gear")
-                            }
                         }
                 }
                 .frame(minWidth: 150)
@@ -50,11 +47,6 @@ struct ContentView: View{
                 .tabItem {
                     Image(systemName: "heart")
                     Text("Favourites")
-                }
-            SettingsView()
-                .tabItem {
-                    Image(systemName: "gear")
-                    Text("Settings")
                 }
         }
         #endif

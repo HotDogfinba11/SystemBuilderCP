@@ -17,9 +17,9 @@ struct BuildView: View {
 }
 
 struct GraphView: View {
-    var body: some View {
-        ScrollView{
-            VStack(spacing: 8){
+    @State private var showingSheet = false
+        var body: some View {
+            ScrollView{
                 GroupBox(
                     label: Label("Average price over time", systemImage: "sterlingsign.square.fill")
                         .foregroundColor(.green)
@@ -30,10 +30,22 @@ struct GraphView: View {
                 }
                 .padding()
                 .frame(minWidth: 320, minHeight: 200, maxHeight: 200)
+                .navigationTitle("Build")
+                .toolbar {
+                    ToolbarItem(placement: .automatic) {
+                        Button(action: {
+                            showingSheet.toggle()
+                        }) {
+                          Image(systemName: "gear")
+                        }
+                        .sheet(isPresented: $showingSheet) {
+                            SettingsView()
+                        }
+                    }
+                }
             }
+            .navigationTitle("Build")
         }
-        .navigationTitle("Build")
-    }
 }
 
 struct BuildView_Previews: PreviewProvider {
