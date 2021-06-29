@@ -11,14 +11,16 @@ struct PCType: Identifiable {
     let id: Int
     let name: String
     let type: String
+    let icon: String
     let price: String
 }
 
 struct FavouritedView: View {
     @State var PCList = [
-        PCType(id: 0, name: "Nephew's PC", type: "discord", price: "£700"),
-        PCType(id: 1, name: "Grandad's PC", type: "apple", price: "£400"),
-        PCType(id: 2, name: "Daughter's PC", type: "apple", price: "£350"),
+        PCType(id: 0, name: "Nephew's PC", type: "Gaming", icon: "discord", price: "£700"),
+        PCType(id: 1, name: "Grandad's PC", type: "Gaming", icon: "discord", price: "£1500"),
+        PCType(id: 2, name: "Daughter's PC", type: "Desktop", icon: "apple", price: "£350"),
+        PCType(id: 3, name: "Staff PC", type: "Video editing", icon: "video", price: "£800"),
     ]
     
     var body: some View {
@@ -26,7 +28,7 @@ struct FavouritedView: View {
             List(PCList) { pclist in
                 NavigationLink(destination: GraphView()) {
                     HStack {
-                        Image(pclist.type)
+                        Image(pclist.icon)
                             .resizable()
                             .scaledToFit()
                             .frame(width: 40, height: 40)
@@ -34,7 +36,7 @@ struct FavouritedView: View {
                             Text(pclist.name)
                                 .font(.title2)
                                 .fontWeight(.bold)
-                            Text("Gaming PC, price of \(pclist.price)")
+                            Text("\(pclist.type) PC, price of \(pclist.price)")
                                 .font(.caption)
                                 .foregroundColor(Color.secondary)
                         })
