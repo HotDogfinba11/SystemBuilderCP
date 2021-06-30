@@ -32,6 +32,7 @@ struct GraphView: View {
                 .frame(minWidth: 320, minHeight: 200, maxHeight: 200)
                 .navigationTitle("Build")
                 .toolbar {
+                    #if os(iOS)
                     ToolbarItem(placement: .automatic) {
                         Button(action: {
                             showingSheet.toggle()
@@ -42,8 +43,10 @@ struct GraphView: View {
                             SettingsView()
                         }
                     }
+                    #endif
                 }
             }
+            .fixFlickering()
             .navigationTitle("Build")
         }
 }
