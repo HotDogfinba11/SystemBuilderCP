@@ -43,7 +43,7 @@ struct FavouritedView: View {
                         }
                     }
             }
-            .listStyle(SidebarListStyle())
+            .listStyle(DefaultListStyle())
             .frame(minWidth: 220)
             .navigationTitle("Favourites")
         }
