@@ -21,6 +21,8 @@
 		86280DDE267EAAE600E66123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86280DDC267EAAE600E66123 /* SettingsView.swift */; };
 		864D18D7268B435700F1E029 /* FavouritedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862054E92688FF3F000C5B92 /* FavouritedView.swift */; };
 		864D18D8268B435800F1E029 /* FavouritedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862054E92688FF3F000C5B92 /* FavouritedView.swift */; };
+		869D2DE326F539B4009F6854 /* AutomatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869D2DE226F539B4009F6854 /* AutomatedView.swift */; };
+		869D2DE426F539B4009F6854 /* AutomatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869D2DE226F539B4009F6854 /* AutomatedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,7 @@
 		86280DD9267EA9B900E66123 /* BuildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildView.swift; sourceTree = "<group>"; };
 		86280DDC267EAAE600E66123 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		86280DDF267EB16B00E66123 /* SystemBuilderCP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SystemBuilderCP.entitlements; sourceTree = "<group>"; };
+		869D2DE226F539B4009F6854 /* AutomatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 				86280DDC267EAAE600E66123 /* SettingsView.swift */,
 				86280DD9267EA9B900E66123 /* BuildView.swift */,
 				862054E92688FF3F000C5B92 /* FavouritedView.swift */,
+				869D2DE226F539B4009F6854 /* AutomatedView.swift */,
 				86280DB1267EA23B00E66123 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -227,6 +231,7 @@
 				86280DDA267EA9B900E66123 /* BuildView.swift in Sources */,
 				86280DC2267EA23B00E66123 /* SystemBuilderCPApp.swift in Sources */,
 				864D18D7268B435700F1E029 /* FavouritedView.swift in Sources */,
+				869D2DE326F539B4009F6854 /* AutomatedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +244,7 @@
 				86280DDB267EA9B900E66123 /* BuildView.swift in Sources */,
 				86280DC3267EA23B00E66123 /* SystemBuilderCPApp.swift in Sources */,
 				864D18D8268B435800F1E029 /* FavouritedView.swift in Sources */,
+				869D2DE426F539B4009F6854 /* AutomatedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ struct ContentView: View{
             VStack {
                 List() {
                         Section(header: Text("System Builder")) {
-                            NavigationLink(destination: GraphView(), isActive: $ShowingView) {
+                            NavigationLink(destination: AutomatedView(), isActive: $ShowingView) {
                                 Label("Build", systemImage: "macpro.gen3")
                             }
                             NavigationLink(destination: FavouritedView()) {
@@ -38,7 +38,7 @@ struct ContentView: View{
         }
         #else
         TabView {
-            BuildView()
+            AutomatedView()
                 .tabItem{
                     Image(systemName: "macpro.gen3")
                     Text("Build")
